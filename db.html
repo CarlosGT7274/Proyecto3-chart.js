@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 Data</title>
+    <link rel="stylesheet" href="dbstyles.css">
+  </head>
+  <body>
+    <canvas id="myChart" class="xdd"></canvas>
+    <!--<table id="data-table">
+      <tr>
+        <th>Hospitalizados</th>
+        <th>Muertes</th>
+        <th>En Terapia</th>
+        <th>Recuperados</th>
+      </tr>
+      <tr>
+        <td id="hospitalizados"></td>
+        <td id="muertes"></td>
+        <td id="enTerapia"></td>
+        <td id="recuperados"></td>
+      </tr>
+    </table>-->
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script type="module" src="api.js"></script>
+    <script type="module" src="charts.js"></script>
+  </body>
+</html>
