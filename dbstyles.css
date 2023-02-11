@@ -16,14 +16,11 @@
 }
 
 
-
-
-
 footer{
     position: absolute;
     bottom: 0;
     width: 100%;
-    background: #72AF66 ;
+    background: #4C9070  ;
     min-height: 100px;
     padding: 20px 50px;
     display: flex;
