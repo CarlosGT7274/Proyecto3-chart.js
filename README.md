@@ -2,6 +2,7 @@
 
 Este proyecto permite visualizar y analizar datos de manera atractiva. Utiliza HTML5, selectores CSS, Chart.js, fetch o axios, import y export, 
 y promesas o async-await.
+https://charjs-api.netlify.app/
 
 # Instalación
 
